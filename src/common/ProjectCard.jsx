@@ -1,4 +1,3 @@
-// import Viberr from "../assets/viberr.png";
 
 const ProjectCard =({src,h3,p,link})=>{
     return(

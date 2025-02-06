@@ -1,6 +1,6 @@
 import styles from "./ProjectsStyles.module.css"
-import Viberr from "../../assets/viberr.png"
-import hipsster from "../../assets/hipsster.png"
+import Care_log_Hub from "../../assets/Care_log_Hub.png"
+import Applicatiofy from "../../assets/Applicatiofy.png"
 import ProjectCard from "../../common/ProjectCard.jsx";
 const Projects = () => {
 
@@ -10,14 +10,14 @@ const Projects = () => {
             <div className={styles.projectsContainer}>
 
                 <ProjectCard
-                    src ={Viberr}
+                    src ={Care_log_Hub}
                     h3 = "Care Log Hub"
                     p = "Group Home Observation App"
                     link = "https://github.com/zacharia0/careLogHub"
                 />
 
                 <ProjectCard
-                    src ={hipsster}
+                    src ={Applicatiofy}
                     h3 = "applicatiofy"
                     p = "Job application tracking App"
                     link = "https://github.com/zacharia0/applicatiofy"
